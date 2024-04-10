@@ -62,8 +62,3 @@ keymap.set("n", "tru", ":TypescriptRemoveUnused<Return><C-w>")
 
 keymap.set("n", "nm", ":tabedit<Return><C-w>w")
 keymap.set("n", "nn", ":tabnext<Return><C-w>w")
-
---- typescript keymaps
-keymap.set("n", "tam", ":TypescriptAddMissingImports<Return><C-w>")
-keymap.set("n", "toi", ":TypescriptOrganizeImports<Return><C-w>")
-keymap.set("n", "tru", ":TypescriptRemoveUnused<Return><C-w>")

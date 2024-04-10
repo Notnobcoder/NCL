@@ -2,7 +2,7 @@ return {
   {
     "0x100101/lab.nvim",
     lazy = false,
-    priority = 100,
+    priority = 1000,
     opts = {
       code_runner = {
         enabled = true,
