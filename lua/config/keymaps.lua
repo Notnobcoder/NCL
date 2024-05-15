@@ -51,9 +51,6 @@ keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
 
---- react extract
-keymap.set({ "v" }, "re", require("react-extract").extract_to_new_file)
-keymap.set({ "v" }, "rc", require("react-extract").extract_to_current_file)
 
 --- typescript keymaps
 keymap.set("n", "tam", ":TypescriptAddMissingImports<Return><C-w>")
