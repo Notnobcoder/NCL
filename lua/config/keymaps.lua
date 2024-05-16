@@ -33,7 +33,9 @@ keymap.set("n", "nw", ":tabclose<Return>", opts)
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
-keymap.set("n", "cc1", ":colorscheme tokyonight<Return>", opts)
+keymap.set("n", "cc1", ":colorscheme monochrome<Return>", opts)
+keymap.set("n", "cc2", ":colorscheme tokyonight<Return>", opts)
+
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
 keymap.set("n", "sk", "<C-w>k")
@@ -50,7 +52,6 @@ keymap.set("n", "<C-S-j>", "<C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
-
 
 --- typescript keymaps
 keymap.set("n", "tam", ":TypescriptAddMissingImports<Return><C-w>")

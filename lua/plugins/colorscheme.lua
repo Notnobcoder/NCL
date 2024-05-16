@@ -8,4 +8,13 @@ return {
       style = "night",
     },
   },
+  {
+    "kdheepak/monochrome.nvim",
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "monochrome",
+    },
+  },
 }
