@@ -61,6 +61,8 @@ keymap.set("n", "tru", ":TypescriptRemoveUnused<Return><C-w>")
 keymap.set("n", "nm", ":tabedit<Return><C-w>w")
 keymap.set("n", "nn", ":tabnext<Return><C-w>w")
 
+keymap.set("n", "cp", ":! cat package.json")
+
 -- -- trouble setup
 -- ---- Lua
 -- vim.keymap.set("n", "<leader>xx", function()
