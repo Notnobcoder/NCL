@@ -65,5 +65,6 @@
   "typescript.nvim": { "branch": "main", "commit": "4de85ef699d7e6010528dcfbddc2ed4c2c421467" },
   "vimdark": { "branch": "master", "commit": "ffd7240f8346cb61ab80eda84b78f8983a3c69bf" },
   "visual_studio_code": { "branch": "master", "commit": "5dcee1198e7065c07efefa0befd0d3d6a317b35c" },
+  "vscode.nvim": { "branch": "main", "commit": "7de58b7a6d55fe48475d0ba2fddbcec871717761" },
   "which-key.nvim": { "branch": "main", "commit": "6c1584eb76b55629702716995cca4ae2798a9cca" }
 }
