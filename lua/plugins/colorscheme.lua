@@ -1,23 +1,14 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {
-      transparent = true,
-      style = "night",
-    },
-  },
-  {
     "kdheepak/monochrome.nvim",
   },
-  -- lazy
+  -- Lazy
   {
-    "Mofiqul/vscode.nvim",
+    "olimorris/onedarkpro.nvim",
   },
 
   {
-    "ldelossa/vimdark",
+    "craftzdog/solarized-osaka.nvim",
   },
   {
     "LazyVim/LazyVim",

@@ -32,8 +32,8 @@ keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
 keymap.set("n", "cc1", ":colorscheme monochrome<Return>", opts)
-keymap.set("n", "cc2", ":colorscheme tokyonight<Return>", opts)
-keymap.set("n", "cc3", ":colorscheme vscode<Return>", opts)
+keymap.set("n", "cc2", ":colorscheme solarized-osaka-moon<Return>", opts)
+keymap.set("n", "cc3", ":colorscheme onedark_dark<Return>", opts)
 
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
@@ -63,6 +63,7 @@ keymap.set("n", "nn", ":tabnext<Return><C-w>w")
 
 keymap.set("n", "cp", ":! cat package.json<Return><C-w>")
 
+vim.keymap.set({ "v" }, "<Leader>rc", require("react-extract").extract_to_current_file)
 -- -- trouble setup
 -- ---- Lua
 -- vim.keymap.set("n", "<leader>xx", function()
